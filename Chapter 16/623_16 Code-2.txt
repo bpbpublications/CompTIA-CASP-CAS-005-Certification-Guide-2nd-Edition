@@ -1,0 +1,12 @@
+Chapter 16 Page 28
+
+# Terraform configuration for an encrypted S3 bucket
+resource "aws_s3_bucket" "secure_bucket" {
+  bucket = "my-secure-bucket"
+  acl    = "private"
+
+  server_side_encryption {
+    enabled = true
+    sse_algorithm = "AES256"
+  }
+}

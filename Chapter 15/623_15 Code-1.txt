@@ -1,0 +1,7 @@
+Chapter 15 Page 28 
+
+# Generate AES-256 encryption key
+openssl rand -base64 32 > encryption_key.txt
+
+# Encrypt a sample file
+openssl enc -aes-256-cbc -salt -in sensitive_data.txt -out sensitive_data.enc -pass file:./encryption_key.txt

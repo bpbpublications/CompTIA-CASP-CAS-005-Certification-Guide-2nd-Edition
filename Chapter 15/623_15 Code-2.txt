@@ -1,0 +1,15 @@
+Chapter 15 Page 29
+
+#Encrypt S3 Buckets:
+aws s3api put-bucket-encryption --bucket example-bucket \
+--server-side-encryption-configuration '{
+    "Rules": [{
+        "ApplyServerSideEncryptionByDefault": {
+            "SSEAlgorithm": "aws:kms"
+        }
+    }]
+}'
+
+# Check EC2 Security Group Configuration
+aws ec2 describe-security-groups --group-ids sg-123abc
+

@@ -1,0 +1,12 @@
+Chapter 16 Page 26
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["s3:ListBucket"],
+      "Resource": ["arn:aws:s3:::example-bucket"]
+    }
+  ]
+}

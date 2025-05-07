@@ -1,0 +1,27 @@
+Chapter 15 Page 30
+
+# Deploying a Smart Contract (Solidity):
+pragma solidity ^0.8.0;
+
+contract SupplyChain {
+    struct Product {
+        string name;
+        string status;
+    }
+    
+    mapping(uint => Product) public products;
+
+    function updateStatus(uint productId, string memory newStatus) public {
+        products[productId].status = newStatus;
+    }
+}
+
+# Compiling and Deploying the Contract:
+•	Use Remix IDE or Hardhat to compile and deploy the smart contract on a test network like Rinkeby.
+
+# Command for Ganache:
+ganache-cli --port 8545 --networkId 5777
+
+# Validation and Practical Assessment:
+•	Confirm immutability by querying product records at different checkpoints.
+•	Simulate double-spending attacks to ensure consensus resilience.
