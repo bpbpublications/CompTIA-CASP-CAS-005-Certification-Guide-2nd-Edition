@@ -15,7 +15,7 @@ This book navigates the critical domains of the CASP+ exam. It begins by establi
 This new edition provides a broader coverage of organizational security, including governance, risk, and compliance, as well as a more detailed examination of cloud security and its integration with virtualization. By the end of this book, you will gain an understanding of advanced security concepts and practical techniques, empowering you to confidently tackle the CASP+ certification exam and apply expert-level security skills to protect and defend complex organizational environments.
 
 ## What You Will Learn
-• LIntegrate hosts/networks/storage/applications/cloud; manage security lifecycle; assess CASP+ skills via mock exams.
+• Integrate hosts/networks/storage/applications/cloud; manage security lifecycle; assess CASP+ skills via mock exams.
 
 • Analyze real-world scenarios involving cloud, virtualization, networks, servers, applications, and end-user systems. 
 
